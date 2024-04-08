@@ -1,13 +1,13 @@
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Recipes from './components/Recipes'; // Corregido el nombre de la importación
+import Recipes from './components/Recipes';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Recipes /> {/* Utiliza Recipes en lugar de RecipeApp */}
+      <Recipes /> 
       <Footer />
     </div>
   );
